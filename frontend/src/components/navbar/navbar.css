@@ -1,0 +1,93 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e9ecef;
+}
+
+.navbar__logo img {
+  height: 40px;
+}
+
+.navbar__menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.navbar__menu li {
+  margin: 0;
+  text-align: center;
+}
+
+.navbar__menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar__menu a svg {
+  font-size: 1.5rem;  /* Adjust the size as needed */
+}
+
+.navbar__menu a span {
+  font-size: 0.85rem;
+}
+
+.navbar__actions {
+  display: flex;
+  gap: 10px;
+  
+}
+
+.navbar__btn {
+  padding: 8px 16px;
+  border: 1px solid #ff6f61;
+  background-color: #fff;
+  color: #ff6f61;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.navbar__btn:hover {
+  background-color: #ff6f61;
+  color: #fff;
+}
+
+.navbar__btn--primary {
+  background-color: #ff6f61;
+  color: #fff;
+}
+
+.navbar__btn--primary:hover {
+  background-color: #e55b50;
+}
+
+.new{
+  position: relative;
+  width: 10%;
+  height: 50px; /* Adjust based on your navbar height */
+}
+
+.navbar__user-info {
+  position: absolute;
+  top: 10px; /* Adjust for proper spacing from the top */
+  right: 10px; /* Adjust for proper spacing from the right */
+  background-color: rgb(243, 5, 36); /* Adjust for the background color of the circle */
+  color: #fff;
+  border-radius: 10%;
+  padding: 10px 15px; /* Adjust padding for the desired size */
+  text-align: center;
+  line-height: 1; 
+}
+
+.name {
+    display: inline-block;
+}
